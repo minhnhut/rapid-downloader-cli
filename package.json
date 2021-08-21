@@ -1,0 +1,30 @@
+{
+  "name": "rapid-downloader-cli",
+  "version": "1.0.0",
+  "description": "CLI for rapid-downloader package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhnhut/rapid-downloader.git"
+  },
+  "keywords": [
+    "rapid",
+    "download",
+    "file",
+    "http"
+  ],
+  "author": "Minh Nhut",
+  "license": "MIT",
+  "dependencies": {
+    "cli-progress": "^3.9.0",
+    "minimist": "^1.2.5",
+    "progress": "^2.0.3",
+    "rapid-downloader": "^1.2.6"
+  },
+  "bin": {
+    "rapid": "./bin/download.js"
+  }
+}
