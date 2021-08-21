@@ -19,7 +19,6 @@
   "author": "Minh Nhut",
   "license": "MIT",
   "dependencies": {
-    "cli-progress": "^3.9.0",
     "minimist": "^1.2.5",
     "progress": "^2.0.3",
     "rapid-downloader": "^1.2.6"
